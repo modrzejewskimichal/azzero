@@ -9,16 +9,14 @@ public class Main {
         Scanner wej = new Scanner(System.in);
         int a = wej.nextInt();
         while (a != 0) {
-            if (a == 0) {
+            int d, b= wej.nextInt();
+            if (b==0){
                 System.out.println(a);
             }
-            System.out.println("Podaj liczbe");
-            Scanner b = new Scanner(System.in);
-            int d = b.nextInt();
-            System.out.println(d);
+            d=a+b;
+            a=d;
+            }
 
         }
-
         // write your code here
     }
-}
